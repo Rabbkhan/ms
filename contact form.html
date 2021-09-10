@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact page</title>
+    <style>
+     
+     form{
+         background-color: cadetblue;
+         text-align: center;
+         padding: 20px 20px 20px 20px ;
+         border: 1px solid rgb(240, 229, 229);
+        border-radius: 10PX;
+     }
+
+
+
+        
+#contact{
+    background-color:aquamarine;
+    text-align: center;
+    color: rgb(108, 194, 194);
+}
+ #name,#email,#phone{
+    color: rgb(6, 7, 7);
+    text-align: center;
+   padding-bottom:10px ;
+       
+    
+}
+
+input[type="text"],input[type="email"], input[type="phone"]{
+   
+   border: 1px solid black;
+    border-radius: 8px;
+    height: 35px;
+    width: 100%;
+    border-top: rgb(148, 160, 168);
+}
+input[type="submit"],input[type="reset"]{
+    background-color: rgb(53, 182, 182);
+    width: 50%;
+    height: 40px;
+    padding: 0px 10px 0px 10px;
+    border: 1 pix solid white;
+    border-radius: 10px;
+    border-bottom: rgb(177, 183, 194);
+   
+}
+
+    </style>
+</head>
+<body>
+    <h1 id="contact">contact page</h1>
+    <form action="">
+    <label id="name">FullName</label><br>
+    <input type="text" name="name" required />
+    <br>
+    <label id="email">email</label><br>
+    <input type="email" name="email" required />
+    <br>
+    <label id="phone">contact number</label><br>
+    <input type="phone" name="phone" required/><br><br>
+    <input type="submit"  value="submit" name="submit"/> </br>
+    <input type="reset"  value="reset" name="submit"/>
+
+</form>
+</body>
+</html>
